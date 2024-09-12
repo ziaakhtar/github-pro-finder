@@ -1,0 +1,95 @@
+.profile-container{
+    width: 700px;
+    height: auto;
+    margin: 0 auto;
+   justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    padding: 30px;
+    background-color: rgb(29, 36, 78);
+    border-radius: 20px;
+    box-shadow: 0 16px 30px -10px rgba(0,0,0,0.3);
+    font-size: 15px;
+}
+.profile-content{
+    display: flex;
+    gap:25px;
+    justify-content: flex-start;
+}
+.profile-img{
+    height: 100%;
+}
+.profile-avatar{
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid  rgb(29, 36, 78);;
+}
+.profile-bio{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 15px;
+    margin-top: 18px;
+}
+.profile-username{
+    font-size: 20px;
+    font-weight: 300;margin-top: 10px;
+}
+.profile-joined{
+   margin-left: 285px;
+    margin-top: -21px;
+}
+.container{
+    display: flex;
+    height: 66px;
+    width: 430px;
+    border: 2px solid rgb(29, 36, 78);
+    border-radius: 20px;
+    background-color: rgb(29, 35, 65);
+    box-shadow: 0 16px 30px -10px rgba(0,0,0,0.3);
+    margin-top: 50px;
+    margin-left: -18px;
+    margin-right: 128px;
+    align-items: center;
+    justify-content: center;
+}
+.profile-item{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(16, 102, 179);
+    text-align: center;
+    margin-top: 5px;
+}
+.visit-btn{
+    background-color: rgb(29, 35, 65);
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 5px 10px;
+    border: 2px solid rgb(29, 36, 78);
+    border-radius: 20px;
+    box-shadow: 0 16px 30px -10px rgba(0,0,0,0.3);
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+.back-btn{
+    background-color: rgb(29, 35, 65);
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 5px 10px;
+    border: 2px solid rgb(29, 36, 78);
+    border-radius: 20px;
+    box-shadow: 0 16px 30px -10px rgba(0,0,0,0.3);
+    cursor: pointer;
+    margin-left: -20px;
+   
+}
